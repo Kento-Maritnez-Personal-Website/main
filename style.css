@@ -1,0 +1,32 @@
+section {
+height: 100vh;
+background-color: #c6ab70;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   background-color: #fff;
+   padding-block: 30px;
+}
+.logo {
+   font-size: 60px;
+   padding-left: 150px;
+}
+ul {
+   display: flex;
+   list-style-type: none;
+   justify-content: space-between;
+   font-size: 12px;
+}
+li {
+   width: 200px;
+   text-decoration: none;
+}
+h1 {
+   font-size: 40px;
+}
+p {
+   font-size: 12px;
+}
+
+
