@@ -15,7 +15,7 @@
 <body>
    <section class="home">
    <nav>
-      <div class="logo">KENTO</div>
+      <div class="logo">KENTO.</div>
       <ul>
          <li><a href="home.html">HOME</a></li>
          <li><a href="about.html">ABOUT</a></li>
@@ -23,21 +23,45 @@
          <li><a href="contact.html">CONTACT</a></li>
       </ul>
    </nav>
-   <div>
-      <h1 class="mainp2">About Me</h1>
+   <div class="aboutme">
+         <div>
+            <h1 class="main-titles">About Me</h1>
+         </div>
+         <div class="paragraph2">  
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eveniet, <br> at tempore optio natus quos dolorem repellat ab deserunt expedita <br> ipsum autem impedit possimus vel itaque sequi debitis odio veritatis?</p>
+         </div>
+         <div class="tab-title">
+            <p class="tab-links active-link"onclick="opentab('skills')">SKILLS</p>
+            <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+            <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+         </div>
+         <div class="flex-container" id="about">
+         <div class="show-card active-card" id="skills">
+            <ul>
+               <p id="card-info"><span>2022-2023</span><br>LOREMIPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT, QUIDEM EVENIET, AT TEMPORE OPTIO NATUS QUOS. </p>
+            </ul>
+         </div>
+            <div class="show-card" id="experience">
+            <ul>
+               <p id="card-info"><span>2017-2022</span><br>LOREMIPSUM</p>
+            </ul>
+         </div>
+         <div class="show-card" id="education">
+            <ul>
+               <p id="card-info"><span>2011-2015</span><br>LOREMIPSUM</p>
+            </ul>
+         </div>
+         </div>
    </div>
-   <div class="paragraph2">  
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eveniet, <br> at tempore optio natus quos dolorem repellat ab deserunt expedita <br> ipsum autem impedit possimus vel itaque sequi debitis odio veritatis?</p>
-   </div>
+   </section>
    <footer>
       <div class="footer-content">
          <a href="#"><i class="fab fa-facebook"></i></a>
          <a href="#"><i class="fab fa-instagram"></i></a>
          <a href="#"><i class="fab fa-twitter"></i></a>
-         <a href="#"><i class="fab fa-linkedin-square"></i></a>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
    </footer>
-   </section>
    <script src="page.js"></script>
 </body>
 </html>
