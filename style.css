@@ -1,0 +1,237 @@
+/* HOME FORMAT */
+body {
+   background-color: #202020;
+}
+section {
+   height: 100vh;
+   background-color: #202020;
+}
+.mainp {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 100px;
+   font-size: 30px;
+   color: #ffffff;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   background-color: #202020;
+   padding-block: 40px;
+}
+.logo {
+   font-size: 20px;
+   color: #ffffff;
+   display: flex;
+   padding-inline: 100px;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+ul {
+   display: flex;
+   list-style-type: none;
+   justify-content: space-between;
+   font-size: 10px;
+   padding-top: 5px;
+   padding-right: 50px;
+}
+li {
+   width: 100px;
+   text-decoration: none;
+   color: #ffffff;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+.paragraph1 {
+   font-size: 12px;
+   color: #8f8d8d;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+   text-align: center;
+}
+a {
+   position: relative;
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Playfair Display', serif;
+    color: #8f8d8d;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+   content: "";
+   position: absolute;
+   background-color: #f4f4f4;
+   height: 3px;
+   width: 0;
+   left: 0;
+   bottom: -10px;
+   transition: 0.3s;
+}
+a:hover{
+   color: #8f8d8d;
+}
+a:hover:after{
+   width: 100%;
+}
+.footer-content {
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -100px;
+}
+
+
+/* ABOUT */
+
+
+.main-titles {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin-top: 30px;
+   font-size: 30px;
+   color: #ffffff;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+.paragraph2 {
+   font-size: 15px;
+   text-align: center;
+   color: #8f8d8d;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+#card-info {
+   width: 80px;
+   align-items: flex-start;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 10px;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+.tab-title {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin: 10px;
+   margin-inline: 10px;
+}
+.tab-links {
+   font-size: 12px;
+   margin: 10px;
+   color: #ffffff;
+   cursor: pointer;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+.show-card {
+   font-size: 15px;
+   text-align: center;
+   color: #8f8d8d;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+
+
+/* PORTFOLIO */
+
+
+.flex-container {
+   display: flex;
+   justify-content: center;
+}
+.cardone {
+   text-align: center;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+}
+.card {
+   color: #8f8d8d;
+   align-items: center;
+   font-size: 17px;
+   width: 12vw;
+   padding: 60px 40px 80px 40px;
+   margin-top: 50px;
+   margin-left: 5px;
+   margin-right: 5px;
+   background-color: #202020;
+   border-radius: 20px;
+}
+.card img {
+   width: 200px;
+   height: 300px;
+   margin-top: -50px;
+   cursor: pointer;
+   border-radius: inherit;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+/* CONTACT */
+
+
+.sub-title {
+  font-size: 30px;
+}
+.contact-left {
+   color: #ffffff;
+   display: column;
+   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Playfair Display', serif;
+
+}
+.contact-right form{
+   width: 100%;
+}
+form input, form textarea {
+   width: 100%;
+   border: 0;
+   outline: none;
+   background: #262626;
+   padding: 15px;
+   margin: 15px 0;
+   color: #ffffff;
+   font-size: 12px;
+   border-radius: 6px;
+}
+button {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
+  box-shadow: none;
+}
