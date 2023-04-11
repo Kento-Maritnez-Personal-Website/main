@@ -1,3 +1,8 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 /* HOME FORMAT */
 body {
    background-color: #202020;
@@ -10,8 +15,8 @@ section {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-top: 100px;
-   font-size: 30px;
+   padding-top: 20vmin;
+   font-size: 5vmin;
    color: #ffffff;
    font-family: 'Nanum Myeongjo', serif;
    font-family: 'Playfair Display', serif;
@@ -21,13 +26,13 @@ nav {
    display: flex;
    justify-content: space-between;
    background-color: #202020;
-   padding-block: 40px;
+   padding-block: 5vmin;
 }
 .logo {
-   font-size: 20px;
+   font-size: 4vmin;
    color: #ffffff;
    display: flex;
-   padding-inline: 100px;
+   padding-inline: 15vmin;
    font-family: 'Nanum Myeongjo', serif;
    font-family: 'Playfair Display', serif;
 }
@@ -35,19 +40,19 @@ ul {
    display: flex;
    list-style-type: none;
    justify-content: space-between;
-   font-size: 10px;
-   padding-top: 5px;
-   padding-right: 50px;
+   font-size: 2vmin;
+   padding-top: 2vmin;
+   padding-right: 5vmin;
 }
 li {
-   width: 100px;
+   width: 20vmin;
    text-decoration: none;
    color: #ffffff;
    font-family: 'Nanum Myeongjo', serif;
    font-family: 'Playfair Display', serif;
 }
 .paragraph1 {
-   font-size: 12px;
+   font-size: 2vmin;
    color: #8f8d8d;
    font-family: 'Nanum Myeongjo', serif;
    font-family: 'Playfair Display', serif;
@@ -59,7 +64,7 @@ a {
     font-family: 'Nanum Myeongjo', serif;
     font-family: 'Playfair Display', serif;
     color: #8f8d8d;
-    font-size: 12px;
+    font-size: 2vmin;
     letter-spacing: 0.5px;
     padding: 0 10px;
 }
@@ -84,7 +89,7 @@ a:hover:after{
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-top: -100px;
+   margin-top: -20vmin;
 }
 
 
@@ -95,25 +100,16 @@ a:hover:after{
    display: flex;
    text-align: center;
    justify-content: center;
-   margin-top: 30px;
-   font-size: 30px;
+   margin: 5vmin;
+   font-size: 5vmin;
    color: #ffffff;
    font-family: 'Nanum Myeongjo', serif;
    font-family: 'Playfair Display', serif;
 }
 .paragraph2 {
-   font-size: 15px;
+   font-size: 2vmin;
    text-align: center;
    color: #8f8d8d;
-   font-family: 'Nanum Myeongjo', serif;
-   font-family: 'Playfair Display', serif;
-}
-#card-info {
-   width: 80px;
-   align-items: flex-start;
-   text-decoration: none;
-   color: #ffffff;
-   font-size: 10px;
    font-family: 'Nanum Myeongjo', serif;
    font-family: 'Playfair Display', serif;
 }
@@ -121,11 +117,10 @@ a:hover:after{
    display: flex;
    text-align: center;
    justify-content: center;
-   margin: 10px;
-   margin-inline: 10px;
+   margin: 2vmin;
 }
 .tab-links {
-   font-size: 12px;
+   font-size: 2vmin;
    margin: 10px;
    color: #ffffff;
    cursor: pointer;
@@ -133,7 +128,7 @@ a:hover:after{
    font-family: 'Playfair Display', serif;
 }
 .show-card {
-   font-size: 15px;
+   font-size: 2vmin;
    text-align: center;
    color: #8f8d8d;
    font-family: 'Nanum Myeongjo', serif;
@@ -156,18 +151,18 @@ a:hover:after{
 .card {
    color: #8f8d8d;
    align-items: center;
-   font-size: 17px;
+   font-size: 3vmin;
    width: 12vw;
-   padding: 60px 40px 80px 40px;
-   margin-top: 50px;
-   margin-left: 5px;
-   margin-right: 5px;
+   padding: 5vmin 0vmin 5vmin 0vmin;
+   margin: 5vmin 10vmin 0 10vmin;
+   margin-left: 5vmin;
+   margin-right: 5vmin;
    background-color: #202020;
-   border-radius: 20px;
+   border-radius: 10px;
 }
 .card img {
-   width: 200px;
-   height: 300px;
+   width: 26vmin;
+   height: 38vmin;
    margin-top: -50px;
    cursor: pointer;
    border-radius: inherit;
@@ -179,7 +174,7 @@ a:hover:after{
 
 
 .sub-title {
-  font-size: 30px;
+  font-size: 5vmin;
 }
 .contact-left {
    color: #ffffff;
@@ -189,17 +184,17 @@ a:hover:after{
 
 }
 .contact-right form{
-   width: 100%;
+   width: 70vmin;
 }
 form input, form textarea {
-   width: 100%;
+   width: 70vmin;
    border: 0;
    outline: none;
    background: #262626;
-   padding: 15px;
-   margin: 15px 0;
+   padding: 3vmin;
+   margin: 2vmin 0;
    color: #ffffff;
-   font-size: 12px;
+   font-size: 2vmin;
    border-radius: 6px;
 }
 button {
@@ -210,7 +205,7 @@ button {
   color: #111827;
   font-family: 'Nanum Myeongjo', serif;
   font-family: 'Playfair Display', serif;
-  font-size: 15px;
+  font-size: 2.5vmin;
   line-height: 1.25rem;
   padding: .75rem 1rem;
   text-align: center;
